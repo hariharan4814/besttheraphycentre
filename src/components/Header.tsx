@@ -80,7 +80,7 @@ const Header = () => {
               <Button
                 variant="healing"
                 size="sm"
-                onClick={() => window.location.href = "tel:+919994907341"}
+                onClick={() => window.location.href = "tel:+919952476950"}
                 className="hidden sm:flex touch-bounce"
               >
                 <Phone className="w-4 h-4" />
@@ -115,7 +115,7 @@ const Header = () => {
               {link.label}
             </button>
           ))}
-          <Button variant="healing" size="lg" onClick={() => window.location.href = "tel:+919994907341"} className="w-full mt-4 touch-bounce">
+          <Button variant="healing" size="lg" onClick={() => window.location.href = "tel:+919952476950"} className="w-full mt-4 touch-bounce">
             <Phone className="w-4 h-4" />
             Call Now
           </Button>

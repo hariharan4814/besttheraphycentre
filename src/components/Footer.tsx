@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="space-y-2">
             <div className="flex items-center justify-center md:justify-start gap-2 text-muted dark:text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span className="text-sm">+91 99949 07341 / +91 99524 76950</span>
+              <span className="text-sm">+91 99949 07341 (WhatsApp) / +91 99524 76950 (Call)</span>
             </div>
             <div className="flex items-center justify-center md:justify-start gap-2 text-muted dark:text-muted-foreground">
               <MapPin className="w-4 h-4" />

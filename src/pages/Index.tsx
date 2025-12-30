@@ -16,8 +16,8 @@ const Index = () => {
     <>
       <Helmet>
         <title>The Best Therapy & Healing Centre | Natural Healing in Mettupalayam</title>
-        <meta name="description" content="Experience natural healing without medicines at The Best Therapy & Healing Centre in Mettupalayam. Offering Tera Care, Acupuncture, Beauty Therapy, Hydra Facial & more. Call +91 99949 07341" />
-        <meta name="keywords" content="healing centre, therapy centre, acupuncture, natural healing, Mettupalayam, Coimbatore, medicine-free treatment, wellness" />
+        <meta name="description" content="Experience natural healing in Mettupalayam without medicines. offering home treatment & online counseling. Acupuncture, Beauty Therapy & more. Call 99524 76950" />
+        <meta name="keywords" content="healing centre, therapy centre, acupuncture, natural healing, Mettupalayam, Coimbatore, medicine-free treatment, home treatment, online counseling" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#0d9488" />
 

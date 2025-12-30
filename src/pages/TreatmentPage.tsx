@@ -9,23 +9,24 @@ import MobileNavigation from "@/components/MobileNavigation";
 import StickyCallButton from "@/components/StickyCallButton";
 import { getTreatmentById, treatments } from "@/data/treatments";
 
-// Import all therapy images
-import therapyAcupuncture from "@/assets/therapy-acupuncture.jpg";
 import therapyHydrafacial from "@/assets/therapy-hydrafacial.jpg";
-import therapyEnergy from "@/assets/therapy-energy.jpg";
 import therapyBeauty from "@/assets/therapy-beauty.jpg";
-import therapyWellness from "@/assets/therapy-wellness.jpg";
-import therapyCounseling from "@/assets/therapy-counseling.jpg";
+import mensWelcome from "@/assets/mens-welcome.png";
+import mensTreatment from "@/assets/mens-treatment.png";
+import mensRejuvenated from "@/assets/mens-rejuvenated.png";
 
 const imageMap: Record<string, string> = {
-  "therapy-energy.jpg": therapyEnergy,
-  "therapy-acupuncture.jpg": therapyAcupuncture,
+  "therapy-energy.jpg": mensRejuvenated,
+  "therapy-acupuncture.jpg": mensTreatment,
   "therapy-beauty.jpg": therapyBeauty,
   "therapy-hydrafacial.jpg": therapyHydrafacial,
-  "therapy-wellness.jpg": therapyWellness,
-  "therapy-counseling.jpg": therapyCounseling,
-  "therapy-reflexology.jpg": therapyAcupuncture,
-  "therapy-sujok.jpg": therapyAcupuncture,
+  "therapy-wellness.jpg": mensWelcome,
+  "therapy-counseling.jpg": mensWelcome,
+  "therapy-reflexology.jpg": mensTreatment,
+  "therapy-sujok.jpg": mensTreatment,
+  "mens-treatment.png": mensTreatment,
+  "mens-rejuvenated.png": mensRejuvenated,
+  "mens-welcome.png": mensWelcome,
 };
 
 const TreatmentPage = () => {
@@ -46,7 +47,7 @@ const TreatmentPage = () => {
   }
 
   const Icon = treatment.icon;
-  const imageSrc = imageMap[treatment.image] || therapyEnergy;
+  const imageSrc = imageMap[treatment.image] || mensRejuvenated;
 
   // Get related treatments
   const relatedTreatments = treatments
@@ -216,7 +217,7 @@ const TreatmentPage = () => {
                 transition={{ duration: 0.5 }}
               >
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-                  Did You Know?
+                  Why Choose This Therapy?
                 </h2>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -231,7 +232,6 @@ const TreatmentPage = () => {
                     >
                       <Lightbulb className="w-6 h-6 text-primary flex-shrink-0" />
                       <div>
-                        <h4 className="font-medium text-foreground mb-1">Fact #{index + 1}</h4>
                         <p className="text-muted-foreground">{fact}</p>
                       </div>
                     </motion.div>

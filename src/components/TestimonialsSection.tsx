@@ -6,43 +6,43 @@ import Autoplay from "embla-carousel-autoplay";
 
 const testimonials = [
   {
-    name: "Lakshmi Devi",
+    name: "Durga Sivakumar",
     location: "Mettupalayam",
     rating: 5,
     text: "After just 3 sessions of Tera Care therapy, my chronic back pain reduced significantly. The staff is very caring and professional.",
     treatment: "Tera Care Therapy",
   },
   {
-    name: "Suresh Kumar",
-    location: "Coimbatore",
+    name: "Prabhu V",
+    location: "Ooty",
     rating: 5,
     text: "I was skeptical about acupuncture, but The Best Therapy & Healing Centre changed my mind. My migraine frequency has dropped dramatically.",
     treatment: "Acupuncture",
   },
   {
-    name: "Priya Rajan",
+    name: "Rajalakshmi G",
     location: "Ooty",
     rating: 5,
     text: "The Hydra Facial treatment gave me the best skin I've had in years. Very hygienic environment and skilled therapists.",
     treatment: "Hydra Facial",
   },
   {
-    name: "Murugan S",
-    location: "Mettupalayam",
+    name: "Premalatha B",
+    location: "Coimbatore",
     rating: 5,
     text: "Their nutrition guidance helped me manage my diabetes naturally. I've reduced my medicine dosage under doctor supervision.",
     treatment: "Nutrition Guidance",
   },
   {
-    name: "Anitha Krishnan",
-    location: "Pollachi",
+    name: "Sanjeev B",
+    location: "Coimbatore",
     rating: 5,
     text: "The counseling sessions helped me through a very difficult time. Compassionate and understanding approach to mental wellness.",
     treatment: "Counseling",
   },
   {
-    name: "Venkatesh R",
-    location: "Coimbatore",
+    name: "Sundar G",
+    location: "Karur",
     rating: 5,
     text: "Best wellness centre in the region! The personalized care and attention to detail is exceptional. Highly recommended.",
     treatment: "Wellness Program",
@@ -164,6 +164,19 @@ const TestimonialsSection = () => {
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
+        </div>
+
+        {/* Google Reviews Link */}
+        <div className="text-center mt-8 md:mt-12">
+          <a
+            href="https://www.google.com/search?q=The+Best+Therapy+%26+Healing+Centre+Mettupalayam#lrd=0x3ba8f4fd7c5c5e8d:0x8f0d0e0a0a0a0a0a,1,,,"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium transition-colors border-b border-primary/30 hover:border-primary pb-0.5"
+          >
+            <Star className="w-4 h-4 fill-primary" />
+            View reviews in Google
+          </a>
         </div>
       </div>
     </section>

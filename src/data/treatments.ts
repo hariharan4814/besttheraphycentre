@@ -30,10 +30,10 @@ export const treatments: Treatment[] = [
       "Supports hormonal balance"
     ],
     facts: [
-      "Based on Traditional Chinese Medicine (TCM)",
-      "Focuses on 12 major meridians",
-      "Stimulates the central nervous system",
-      "Recognized by WHO for various conditions"
+      "Tailored for active lifestyles",
+      "Accelerates recovery from physical strain",
+      "Enhances performance and focus",
+      "Proven stress reduction"
     ],
     advantages: [
       "Drug-free pain relief",
@@ -42,7 +42,7 @@ export const treatments: Treatment[] = [
       "Addresses the root cause of issues"
     ],
     duration: "45-60 minutes per session",
-    image: "therapy-acupuncture.jpg",
+    image: "mens-treatment.png",
     color: "from-healing-sage/20 to-primary/20",
   },
   {
@@ -60,10 +60,10 @@ export const treatments: Treatment[] = [
       "Prevents migraines and headaches"
     ],
     facts: [
-      "Roots trace back to ancient Egypt and China",
-      "Feet contain over 7,000 nerve endings",
-      "Maps the entire body on the feet",
-      "Can detect imbalances before symptoms appear"
+      "Ideal for walking/standing professionals",
+      "Relieves leg fatigue instantly",
+      "Promotes deep relaxation after work",
+      "Supports systemic health"
     ],
     advantages: [
       "Non-invasive and relaxing",
@@ -72,7 +72,7 @@ export const treatments: Treatment[] = [
       "Improves sleep patterns"
     ],
     duration: "30-45 minutes per session",
-    image: "therapy-reflexology.jpg",
+    image: "mens-treatment.png",
     color: "from-healing-gold/20 to-primary/20",
   },
   {
@@ -90,10 +90,10 @@ export const treatments: Treatment[] = [
       "No side effects or recovery time needed"
     ],
     facts: [
-      "Utilizes electromagnetic waves aimed at cellular frequencies",
-      "Penetrates 20-30 centimeters into the body",
-      "Resonates with healthy human cells",
-      "Often referred to as the 'Wave of Life'"
+      "Cutting-edge recovery tech",
+      "Non-intrusive cellular boost",
+      "Rapid energy restoration",
+      "Optimized for modern wellness needs"
     ],
     advantages: [
       "Activates dormant stem cells",
@@ -102,7 +102,7 @@ export const treatments: Treatment[] = [
       "Safe for all age groups"
     ],
     duration: "30-60 minutes per session",
-    image: "therapy-energy.jpg",
+    image: "mens-rejuvenated.png",
     color: "from-primary/20 to-healing-sage/20",
   },
   {
@@ -120,10 +120,10 @@ export const treatments: Treatment[] = [
       "Harmonizes body energy"
     ],
     facts: [
-      "Developed by Prof. Park Jae Woo",
-      "Uses seeds, magnets, and colors",
-      "Correspondence system mirrors the body",
-      "Combines acupuncture and reflexology principles"
+      "Quick relief for busy schedules",
+      "Simple yet powerful intervention",
+      "Accessible healing method",
+      "Targets specific pain points effectively"
     ],
     advantages: [
       "Simple and safe",
@@ -132,7 +132,7 @@ export const treatments: Treatment[] = [
       "No medication required"
     ],
     duration: "30-45 minutes per session",
-    image: "therapy-sujok.jpg",
+    image: "mens-treatment.png",
     color: "from-primary/20 to-healing-mint/30",
   },
   {
@@ -150,10 +150,10 @@ export const treatments: Treatment[] = [
       "Safe for all skin types"
     ],
     facts: [
-      "Uses premium organic ingredients",
-      "Personalized for skin type",
-      "Combines massage and treatment",
-      "Focuses on dermal health"
+      "Professional skin care setting",
+      "Discreet and relaxing environment",
+      "Combats signs of fatigue and aging",
+      "Revitalizes appearance confidence"
     ],
     advantages: [
       "Boosts self-confidence",
@@ -180,10 +180,10 @@ export const treatments: Treatment[] = [
       "No downtime required"
     ],
     facts: [
-      "Medical-grade resurfacing treatment",
-      "Uses patented Vortex-Fusion technology",
-      "Extracts impurities painlessly",
-      "Saturates skin with antioxidants"
+      "Deep pore cleansing for tough skin",
+      "Instant freshness and clarity",
+      "Removes urban pollution effects",
+      "Efficient 60-minute session"
     ],
     advantages: [
       "Suitable for all skin types",
@@ -210,10 +210,10 @@ export const treatments: Treatment[] = [
       "Mind-body wellness integration"
     ],
     facts: [
-      "Evidence-based therapeutic approaches",
-      "Strict confidentiality maintained",
-      "Qualified and empathetic professionals",
-      "Supports holistic recovery"
+      "Confidential support system",
+      "Practical strategies for life balance",
+      "Strength through mental clarity",
+      "Safe space to unload stress"
     ],
     advantages: [
       "Improved mental clarity",
@@ -222,7 +222,7 @@ export const treatments: Treatment[] = [
       "Online counseling facilities are also available"
     ],
     duration: "45-60 minutes per session",
-    image: "therapy-counseling.jpg",
+    image: "mens-welcome.png",
     color: "from-primary/20 to-healing-sage/20",
   },
   {
@@ -240,10 +240,10 @@ export const treatments: Treatment[] = [
       "Energy and vitality boost"
     ],
     facts: [
-      "Based on functional nutrition principles",
-      "Considers bio-individuality",
-      "integrates lifestyle factors",
-      "Focuses on root cause resolution"
+      "Fuel your body correctly",
+      "Data-driven health plans",
+      "Optimize metabolism and energy",
+      "Sustainable long-term performance"
     ],
     advantages: [
       "Sustainable lifestyle changes",
@@ -252,7 +252,7 @@ export const treatments: Treatment[] = [
       "Mental clarity and focus"
     ],
     duration: "Initial consultation: 45-60 minutes",
-    image: "therapy-wellness.jpg",
+    image: "mens-welcome.png",
     color: "from-healing-gold/20 to-healing-sage/20",
   },
 ];

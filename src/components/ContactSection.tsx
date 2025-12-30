@@ -70,21 +70,21 @@ const ContactSection = () => {
               </div>
               <div className="space-y-3">
                 <button
-                  onClick={() => handleCall("+919994907341")}
-                  className="w-full flex items-center justify-between p-4 rounded-xl bg-muted/50 hover:bg-primary/10 transition-colors duration-200 group"
-                >
-                  <span className="font-medium text-foreground">+91 99949 07341</span>
-                  <span className="text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                    Tap to call →
-                  </span>
-                </button>
-                <button
                   onClick={() => handleCall("+919952476950")}
                   className="w-full flex items-center justify-between p-4 rounded-xl bg-muted/50 hover:bg-primary/10 transition-colors duration-200 group"
                 >
                   <span className="font-medium text-foreground">+91 99524 76950</span>
                   <span className="text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                     Tap to call →
+                  </span>
+                </button>
+                <button
+                  onClick={() => window.open("https://wa.me/919994907341", "_blank")}
+                  className="w-full flex items-center justify-between p-4 rounded-xl bg-muted/50 hover:bg-healing-green/10 transition-colors duration-200 group"
+                >
+                  <span className="font-medium text-foreground">+91 99949 07341 (WhatsApp)</span>
+                  <span className="text-sm text-healing-green opacity-0 group-hover:opacity-100 transition-opacity">
+                    Chat now →
                   </span>
                 </button>
               </div>

@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const navItems = [
   { icon: Home, label: "Home", href: "#" },
   { icon: Stethoscope, label: "Treatments", href: "#treatments" },
-  { icon: Phone, label: "Call", href: "tel:+919994907341", isAction: true },
+  { icon: Phone, label: "Call", href: "tel:+919952476950", isAction: true },
   { icon: MapPin, label: "Location", href: "#contact" },
 ];
 
@@ -75,10 +75,10 @@ const MobileNavigation = () => {
                     key={item.label}
                     onClick={() => handleClick(item.href, item.isAction)}
                     className={`flex flex-col items-center gap-1 p-3 rounded-xl transition-all duration-200 min-w-[70px] tap-highlight-none ${isCallButton
-                        ? "bg-healing-gradient text-primary-foreground shadow-healing animate-glow-pulse"
-                        : isActive
-                          ? "bg-primary/10 text-primary"
-                          : "text-muted-foreground hover:text-foreground"
+                      ? "bg-healing-gradient text-primary-foreground shadow-healing animate-glow-pulse"
+                      : isActive
+                        ? "bg-primary/10 text-primary"
+                        : "text-muted-foreground hover:text-foreground"
                       }`}
                   >
                     <item.icon className={`w-5 h-5 ${isCallButton ? "text-primary-foreground" : ""}`} />

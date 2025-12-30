@@ -16,7 +16,7 @@ const StickyCallButton = () => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+919994907341";
+    window.location.href = "tel:+919952476950";
   };
 
   return (

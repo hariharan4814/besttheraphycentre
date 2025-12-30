@@ -5,7 +5,7 @@ import ParticlesBackground from "@/components/ParticlesBackground";
 
 const HeroSection = () => {
   const handleCall = () => {
-    window.location.href = "tel:+919994907341";
+    window.location.href = "tel:+919952476950";
   };
 
   const handleDirections = () => {
@@ -18,11 +18,8 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
-      {/* Background Particles */}
-      <div className="absolute inset-0 bg-healing-mint/10">
-        <ParticlesBackground />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background" />
-      </div>
+      {/* Background - Lightweight Gradient */}
+      <div className="absolute inset-0 bg-healing-mint/5 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
 
       {/* Animated Glow Elements */}
       <motion.div
@@ -85,7 +82,7 @@ const HeroSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="mb-8"
+            className="mb-6"
           >
             <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium">
               <motion.span
@@ -104,6 +101,16 @@ const HeroSection = () => {
                 Without Medicines
               </motion.span>
             </p>
+          </motion.div>
+
+          {/* Highlighted Services */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.1, duration: 0.5 }}
+            className="mb-10 text-sm md:text-base font-medium text-foreground/80 bg-background/50 backdrop-blur-sm border border-primary/10 py-2 px-4 rounded-lg inline-block shadow-sm"
+          >
+            Treatment will be provided at your home. <span className="mx-2 text-primary">•</span> Online counseling facilities are also available.
           </motion.div>
 
           {/* CTA Buttons */}
