@@ -70,12 +70,21 @@ const ContactSection = () => {
               </div>
               <div className="space-y-3">
                 <button
-                  onClick={() => handleCall("+919952476950")}
+                  onClick={() => handleCall("+919080183701")}
                   className="w-full flex items-center justify-between p-4 rounded-xl bg-muted/50 hover:bg-primary/10 transition-colors duration-200 group"
                 >
-                  <span className="font-medium text-foreground">+91 99524 76950</span>
+                  <span className="font-medium text-foreground">+91 90801 83701</span>
                   <span className="text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                    Tap to call →
+                    Primary →
+                  </span>
+                </button>
+                <button
+                  onClick={() => handleCall("+919952476950")}
+                  className="w-full flex items-center justify-between p-4 rounded-xl bg-muted/30 hover:bg-primary/5 transition-colors duration-200 group"
+                >
+                  <span className="font-medium text-foreground/80">+91 99524 76950</span>
+                  <span className="text-sm text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Secondary →
                   </span>
                 </button>
                 <button

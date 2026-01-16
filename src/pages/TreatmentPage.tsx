@@ -13,7 +13,14 @@ import therapyHydrafacial from "@/assets/therapy-hydrafacial.jpg";
 import therapyBeauty from "@/assets/therapy-beauty.jpg";
 import mensWelcome from "@/assets/mens-welcome.png";
 import mensTreatment from "@/assets/mens-treatment.png";
+
 import mensRejuvenated from "@/assets/mens-rejuvenated.png";
+import footReflexology from "@/assets/foot-reflexology.png";
+import acuTouch from "@/assets/acu-touch.jpg";
+import teraCare from "@/assets/terahertz-care.png";
+import hydraFacial from "@/assets/hydra-facial.png";
+import counseling from "@/assets/counseling.png";
+import nutritionWellness from "@/assets/nutrition-wellness.png";
 
 const imageMap: Record<string, string> = {
   "therapy-energy.jpg": mensRejuvenated,
@@ -26,7 +33,14 @@ const imageMap: Record<string, string> = {
   "therapy-sujok.jpg": mensTreatment,
   "mens-treatment.png": mensTreatment,
   "mens-rejuvenated.png": mensRejuvenated,
+
   "mens-welcome.png": mensWelcome,
+  "foot-reflexology.png": footReflexology,
+  "acu-touch.jpg": acuTouch,
+  "terahertz-care.png": teraCare,
+  "hydra-facial.png": hydraFacial,
+  "counseling.png": counseling,
+  "nutrition-wellness.png": nutritionWellness,
 };
 
 const TreatmentPage = () => {

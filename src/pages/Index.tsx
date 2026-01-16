@@ -16,7 +16,7 @@ const Index = () => {
     <>
       <Helmet>
         <title>The Best Therapy & Healing Centre | Natural Healing in Mettupalayam</title>
-        <meta name="description" content="Experience natural healing in Mettupalayam without medicines. offering home treatment & online counseling. Acupuncture, Beauty Therapy & more. Call 99524 76950" />
+        <meta name="description" content="Experience natural healing in Mettupalayam without medicines. offering home treatment & online counseling. Acupuncture, Beauty Therapy & more. Call +91 90801 83701" />
         <meta name="keywords" content="healing centre, therapy centre, acupuncture, natural healing, Mettupalayam, Coimbatore, medicine-free treatment, home treatment, online counseling" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#0d9488" />
@@ -35,7 +35,7 @@ const Index = () => {
             "name": "The Best Therapy & Healing Centre",
             "description": "Natural healing and therapy centre offering medicine-free treatments",
             "address": { "@type": "PostalAddress", "streetAddress": "3rd Cross, Muthu Complex, KK Nagar", "addressLocality": "Mettupalayam", "addressRegion": "Tamil Nadu", "postalCode": "641301", "addressCountry": "IN" },
-            "telephone": ["+91-99949-07341", "+91-99524-76950"],
+            "telephone": ["+91-90801-83701", "+91-99524-76950", "+91-99949-07341"],
             "foundingDate": "2024-09-01",
             "priceRange": "$$",
             "openingHours": "Mo-Su 09:00-20:00"

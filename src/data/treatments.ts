@@ -42,7 +42,7 @@ export const treatments: Treatment[] = [
       "Addresses the root cause of issues"
     ],
     duration: "45-60 minutes per session",
-    image: "mens-treatment.png",
+    image: "acu-touch.jpg",
     color: "from-healing-sage/20 to-primary/20",
   },
   {
@@ -72,7 +72,7 @@ export const treatments: Treatment[] = [
       "Improves sleep patterns"
     ],
     duration: "30-45 minutes per session",
-    image: "mens-treatment.png",
+    image: "foot-reflexology.png",
     color: "from-healing-gold/20 to-primary/20",
   },
   {
@@ -102,7 +102,7 @@ export const treatments: Treatment[] = [
       "Safe for all age groups"
     ],
     duration: "30-60 minutes per session",
-    image: "mens-rejuvenated.png",
+    image: "terahertz-care.png",
     color: "from-primary/20 to-healing-sage/20",
   },
   {
@@ -192,7 +192,7 @@ export const treatments: Treatment[] = [
       "Customizable boosters"
     ],
     duration: "60 minutes per session",
-    image: "therapy-hydrafacial.jpg",
+    image: "hydra-facial.png",
     color: "from-primary/20 to-healing-mint/30",
   },
   {
@@ -222,7 +222,7 @@ export const treatments: Treatment[] = [
       "Online counseling facilities are also available"
     ],
     duration: "45-60 minutes per session",
-    image: "mens-welcome.png",
+    image: "counseling.png",
     color: "from-primary/20 to-healing-sage/20",
   },
   {
@@ -252,7 +252,7 @@ export const treatments: Treatment[] = [
       "Mental clarity and focus"
     ],
     duration: "Initial consultation: 45-60 minutes",
-    image: "mens-welcome.png",
+    image: "nutrition-wellness.png",
     color: "from-healing-gold/20 to-healing-sage/20",
   },
 ];

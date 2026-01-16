@@ -5,7 +5,7 @@ import ParticlesBackground from "@/components/ParticlesBackground";
 
 const HeroSection = () => {
   const handleCall = () => {
-    window.location.href = "tel:+919952476950";
+    window.location.href = "tel:+919080183701";
   };
 
   const handleDirections = () => {
@@ -72,9 +72,10 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.7 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-4"
+            style={{ fontFamily: '"Times New Roman", Times, serif' }}
           >
             THE BEST THERAPY &{" "}
-            <span className="text-gradient">HEALING CENTRE</span>
+            <span style={{ color: 'hsl(142, 70%, 45%)' }}>HEALING CENTRE</span>
           </motion.h1>
 
           {/* Animated Subheading */}
@@ -164,10 +165,7 @@ const HeroSection = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-primary" />
               <span>Professional Care</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-healing-gold" />
-              <span>Trusted Locally</span>
-            </div>
+
           </motion.div>
         </motion.div>
       </div>

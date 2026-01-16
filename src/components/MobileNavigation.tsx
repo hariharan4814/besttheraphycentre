@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const navItems = [
   { icon: Home, label: "Home", href: "#" },
   { icon: Stethoscope, label: "Treatments", href: "#treatments" },
-  { icon: Phone, label: "Call", href: "tel:+919952476950", isAction: true },
+  { icon: Phone, label: "Call", href: "tel:+919080183701", isAction: true },
   { icon: MapPin, label: "Location", href: "#contact" },
 ];
 

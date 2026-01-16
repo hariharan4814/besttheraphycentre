@@ -2,18 +2,24 @@ import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
-import therapyHydrafacial from "@/assets/therapy-hydrafacial.jpg";
 import mensWelcome from "@/assets/mens-welcome.png";
+import hydraFacial from "@/assets/hydra-facial.png";
+import counseling from "@/assets/counseling.png";
+import nutritionWellness from "@/assets/nutrition-wellness.png";
 import mensTreatment from "@/assets/mens-treatment.png";
+
 import mensRejuvenated from "@/assets/mens-rejuvenated.png";
+import footReflexology from "@/assets/foot-reflexology.png";
+import acuTouch from "@/assets/acu-touch.jpg";
+import teraCare from "@/assets/terahertz-care.png";
 
 const images = [
-  { src: mensTreatment, alt: "Acupuncture", desc: "Precise healing touch", link: "/treatment/acu-touch" },
-  { src: therapyHydrafacial, alt: "Hydra Facial", desc: "Deep cleansing facial", link: "/treatment/hydra-facial" },
-  { src: mensRejuvenated, alt: "Energy Healing", desc: "Restore your balance", link: "/treatment/tera-care" },
-  { src: mensWelcome, alt: "Beauty Therapy", desc: "Radiate confidence", link: "/treatment/beauty-therapy" },
-  { src: mensRejuvenated, alt: "Wellness Care", desc: "Holistic health plans", link: "/treatment/nutrition-wellness" },
-  { src: mensWelcome, alt: "Counseling", desc: "Mental & emotional support", link: "/treatment/counseling" },
+  { src: acuTouch, alt: "Acu Touch", desc: "Precise healing touch", link: "/treatment/acu-touch" },
+  { src: footReflexology, alt: "Foot Reflexology", desc: "Restore balance naturally", link: "/treatment/foot-reflexology" },
+  { src: teraCare, alt: "Terahertz Care", desc: "Advanced energy healing therapy", link: "/treatment/tera-care" },
+  { src: hydraFacial, alt: "Hydra Facial Therapy", desc: "Deep cleansing facial", link: "/treatment/hydra-facial" },
+  { src: counseling, alt: "Counseling", desc: "Mental & emotional support", link: "/treatment/counseling" },
+  { src: nutritionWellness, alt: "Nutrition & Wellness Care", desc: "Holistic health plans", link: "/treatment/nutrition-wellness" },
 ];
 
 const ImageGallery = () => {

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "./ThemeToggle";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,11 +50,9 @@ const Header = () => {
         <div className="container px-4 md:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo Placeholder */}
-            <Link to="/" className="flex items-center gap-3">
-              {/* Replace this div with your logo image */}
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-healing-gradient flex items-center justify-center shadow-healing overflow-hidden">
-                {/* Add your logo here: <img src={yourLogo} alt="Logo" className="w-full h-full object-contain" /> */}
-                <span className="text-primary-foreground font-bold text-lg md:text-xl">B</span>
+            <Link to="/" className="flex items-center gap-3 group">
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-white/10 dark:bg-white/5 flex items-center justify-center shadow-healing overflow-hidden border border-white/20 group-hover:scale-105 transition-transform duration-300">
+                <img src={logo} alt="The Best Therapy & Healing Centre Logo" className="w-full h-full object-cover" />
               </div>
               <div className="hidden sm:block">
                 <div className="font-bold text-foreground text-sm leading-tight">The Best Therapy</div>
@@ -80,7 +79,7 @@ const Header = () => {
               <Button
                 variant="healing"
                 size="sm"
-                onClick={() => window.location.href = "tel:+919952476950"}
+                onClick={() => window.location.href = "tel:+919080183701"}
                 className="hidden sm:flex touch-bounce"
               >
                 <Phone className="w-4 h-4" />
@@ -115,7 +114,7 @@ const Header = () => {
               {link.label}
             </button>
           ))}
-          <Button variant="healing" size="lg" onClick={() => window.location.href = "tel:+919952476950"} className="w-full mt-4 touch-bounce">
+          <Button variant="healing" size="lg" onClick={() => window.location.href = "tel:+919080183701"} className="w-full mt-4 touch-bounce">
             <Phone className="w-4 h-4" />
             Call Now
           </Button>
